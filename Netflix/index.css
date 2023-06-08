@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    color: white;
+    height: 44.8em;
+    box-shadow: inset 20px -40px 90px 300px #00000097;
+    background-image: url(/Netflix/netflixBackground.jpg);
+}
+.logo{
+    
+}
+.logo img{
+    position: relative;
+    top: -1em;
+    left: 9em;
+    height: 120px;
+}
+.container1{
+    position: relative;
+    top: 7em;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+}
+.text h1{
+    font-weight: bold;
+    text-shadow: 2px 2px 20px rgb(0, 0, 0);
+    font-size: 50px;
+}
+.intro1{
+    display: inline;
+    position: relative;
+    left: 18em;
+}
+.intro{
+    display: inline;
+    position: relative;
+    left: 12em;
+}
