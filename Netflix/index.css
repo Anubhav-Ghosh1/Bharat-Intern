@@ -1,13 +1,13 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 .container {
     color: white;
     height: 44.8em;
     box-shadow: inset 20px -40px 90px 300px #00000097;
-    background-image: url(/Netflix/netflixBackground.jpg);
+    background-image: url(netflixBackground.jpg);
 }
 .logo{
     
@@ -20,7 +20,7 @@
 }
 .container1{
     position: relative;
-    top: 7em;
+    top: 9em;
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto;
@@ -31,14 +31,309 @@
     font-weight: bold;
     text-shadow: 2px 2px 20px rgb(0, 0, 0);
     font-size: 50px;
+    padding: 10px;
 }
 .intro1{
     display: inline;
     position: relative;
-    left: 18em;
+    left: 16em;
+    font-size: 19px;
+    padding: 10px;
 }
 .intro{
     display: inline;
     position: relative;
-    left: 12em;
+    left: 8em;
+    font-size: 19px;
+    padding: 10px;
 }
+/* language */
+.language{
+    position: relative;
+    left: 80%;
+    top: -36%;
+    width: 120px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.33);
+    border-radius: 4px;
+    color: white;
+    display: flex;
+}
+.language img{
+    position: relative;
+    left: 5px;
+    top: 4px;
+    height: 20px;
+}
+.language p{
+    font-weight: 500;
+    position: relative;
+    left: 17px;
+    top: 6px;
+}
+.signin{
+    position: relative;
+    left: 88%;
+    top: -40.2%;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.wrapper{
+    display: flex;
+}
+.gettingstarted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 201px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(229,9,20);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    position: relative;
+    top: 4.6em;
+    left: 24em;
+}
+.email{
+    position: relative;
+    top: 8.5em;
+    left: 42em;
+    background-color: rgba(0, 0, 0, 0.453);
+    width: 376px;
+    height: 55px;
+    color: white;
+    font-weight: 600;
+    padding-left: 10px;
+    border: 0.2px solid rgba(255, 255, 255, 0.465);
+    border-radius: 5px;
+}
+
+/* Page seperator */
+.page_Seperator{
+    height: 0.5rem;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgb(35,35,35);
+}
+
+
+/* Wrapper Enjoy your TV */
+.wrapper_main{
+    color: white;
+    overflow: hidden;
+    background-color: black;
+}
+.image_wrapper{
+    position: relative;
+    left: 49em;
+    top: -7em;
+}
+.imageTv{
+    position: relative;
+    z-index: 1;
+}
+.video{
+    /* height: 25em;
+    width: 27em; */
+    position: relative;
+    left: -35em;
+    top: -7.4em;
+    z-index: 0;
+}
+.text_Enjoy{
+    position: relative;
+    display: inline;
+    top: 6.9em;
+    left: 2.4em;
+    font-size: 35px;
+    font-weight: 600;
+}
+.intro_description{
+    position: relative;
+    top: 12.9em;
+    left: 4em;
+    padding: 10px;
+    font-size: 19px;
+    width: 26em;
+}
+/* Wrapper */
+/* Download */
+.wrapper_Download{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.text_Download{
+    position: relative;
+    display: inline;
+    top: 6.9em;
+    left: 45em;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 700;
+}
+.download_text{
+    width: 12em;
+}
+.intro_description_download{
+    position: relative;
+    top: 9.7em;
+    left: 56.2em;
+}
+.text_wrapper{
+    position: relative;
+    top: 5em;
+    left: -4em;
+}
+.imageDownload{
+    position: relative;
+    top: -5em;
+    left: 12em;
+    z-index: 0;
+}
+.textWrapper_footer{
+    display: grid;
+    position: relative;
+    padding: 30px;
+    left: 12em;
+    grid-template-columns: auto auto auto;
+}
+.footer_wrapper{
+    background-color: black;
+    overflow: hidden;
+    /* display: grid; */
+    /* position: relative; */
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.89);
+}
+.footer_wrapper ul{
+    list-style: none;
+}
+.column1 li{
+    padding: 10px;
+}
+.column2 li{
+    padding: 10px;
+    text-decoration: underline;
+}
+.column3 li{
+    padding: 10px;
+}
+
+@media screen and (max-width:375px) {
+    body{
+        overflow-x: hidden;
+    }
+    /* Logo */
+    .logo img{
+        position: relative;
+        top: 0.1em;
+        left: 1em;
+        height: 90px;
+    }
+    /* Top Container */
+    .container1{
+        top: 5em;
+    }
+    /* Text */
+    .text h1{
+        text-shadow: 2px 2px 20px rgb(0, 0, 0);
+        font-size: 29px;
+        padding: 10px;
+        text-align: center;
+    }
+    .intro1{
+        left: 1.9em;
+    }
+    .intro{
+        text-align: center;
+        left: 0.2em; 
+    }
+    /* Button */
+    .language{
+        width: 36px;
+        overflow: hidden;
+        left: 18em;
+    }
+    .signin{
+        left: 21em;
+    }
+    .email{
+        top: 3em;
+        left: 3.5em;
+        width: 50em;
+        height: 4em;
+    }
+    .gettingstarted
+    {
+        top: 8em;
+        left: -8em;
+        font-size: 15px;
+        width: 19em;
+        background-color: rgb(229,9,20); 
+    }
+
+    /* Enjoy on your tv */
+    .text_Enjoy
+    {
+        font-size: 15px;
+        left: 4.6em;
+        top: 4.5em;
+    }
+    .intro_description{
+        font-size: 14px;
+        text-align: center;
+        left: -0em;
+        top: 6em;
+    }
+    .image_wrapper{
+        left: 1em;
+    }
+    .imageTv{
+        top: 12em;
+        height: 16em;
+        padding-bottom: 40px;
+    }
+    .video{
+        left: -3.5em;
+        top: -4em;
+        height: 150px;
+    }
+    /* Download */
+    .text_Download{
+        left: 9em;
+        top: -3em;
+        text-align: center;
+        font-size: 12px;
+    }
+    .imageDownload
+    {
+        top: 1em;
+        left: 4em;
+        height: 200px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .intro_description_download{
+        left: 4em;
+        top: -0.8em;
+        text-align: center;
+        z-index: 1;
+    }
+    /* Footer */
+    .textWrapper_footer{
+        left: 0em;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    }
